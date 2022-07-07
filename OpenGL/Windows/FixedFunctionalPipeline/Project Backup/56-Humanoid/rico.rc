@@ -1,0 +1,8 @@
+#include "Humanoid.h"
+MYICON ICON rico.ico
+
+MOON_BITMAP BITMAP Moon.bmp
+BG_BITMAP BITMAP bg.bmp
+GROUND_BITMAP BITMAP Ground.bmp
+
+TRACK WAVE TRACK1.wav

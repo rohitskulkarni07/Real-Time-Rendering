@@ -1,0 +1,4 @@
+#include "MyWindowWithIcon.h"
+MYICON ICON rico.ico
+
+MARBLE_BITMAP BITMAP marble.bmp

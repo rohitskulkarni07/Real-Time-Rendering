@@ -1,0 +1,180 @@
+PYRAMID :
+=========
+GLfloat pyramidVertices
+    // front
+	0.0f, 1.0f, 0.0f,    // apex
+	-1.0f, -1.0f, 1.0f,  // left bottom
+	1.0f, -1.0f, 1.0f,   // right bottom
+
+    // right
+	0.0f, 1.0f, 0.0f,     // apex
+	1.0f, -1.0f, 1.0f,    // left bottom
+	1.0f, -1.0f, -1.0f,   // right bottom
+
+    // back
+	0.0f, 1.0f, 0.0f,     // apex
+	1.0f, -1.0f, -1.0f,   // left bottom
+	-1.0f, -1.0f, -1.0f,  // right bottom
+
+    // left
+	0.0f, 1.0f, 0.0f,     // apex
+	-1.0f, -1.0f, -1.0f,  // left bottom
+	-1.0f, -1.0f, 1.0f    // right bottom
+
+GLfloat pyramidColors
+	// Front
+	1.0f,0.0f,0.0f,	// Red		// apex
+	0.0f,1.0f,0.0f, // Green    // left bottom
+	0.0f,0.0f,1.0f, // Blue     // right bottom
+	
+	// Right
+	1.0f,0.0f,0.0f,	// Red		// apex
+	0.0f,0.0f,1.0f, // Blue     // left bottom
+	0.0f,1.0f,0.0f, // Green	// right bottom
+	
+	// Back
+	1.0f,0.0f,0.0f,	// Red		// apex
+	0.0f,1.0f,0.0f, // Green    // left bottom
+	0.0f,0.0f,1.0f, // Blue     // right bottom
+	
+	// Left
+	1.0f,0.0f,0.0f,	// Red		// apex
+	0.0f,0.0f,1.0f, // Blue     // left bottom
+	0.0f,1.0f,0.0f, // Green    // right bottom
+	
+
+GLfloat pyramidTexcoords
+	// Front
+	0.5f,1.0f, // apex
+	0.0f,0.0f, // left bottom
+	1.0f,0.0f  // right bottom
+	
+	// Right
+	0.5f,1.0f, // apex
+	1.0f,0.0f, // left bottom
+	0.0f,0.0f  // right bottom
+	
+	// Back
+	0.5f,1.0f, // apex
+	1.0f,0.0f, // left bottom
+	0.0f,0.0f  // right bottom
+	
+	// Left
+	0.5f,1.0f, // apex
+	0.0f,0.0f, // left bottom
+	1.0f,0.0f  // right bottom
+
+GLfloat pyramidNormals
+	// Front
+	0.0f, 0.447214f, 0.894427f,
+	
+	// Right
+	0.894427f, 0.447214f, 0.0f,
+	
+	// Back
+	0.0f, 0.447214f, -0.894427f,
+	
+	// Left
+	-0.894427f, 0.447214f, 0.0f,
+
+******************************************************************************************************************
+CUBE :
+======
+GLfloat cubeVertices
+        // top
+	1.0f, 1.0f, -1.0f,
+	-1.0f, 1.0f, -1.0f, 
+	-1.0f, 1.0f, 1.0f,
+	1.0f, 1.0f, 1.0f,  
+
+	// bottom
+	1.0f, -1.0f, -1.0f,
+   -1.0f, -1.0f, -1.0f,
+   -1.0f, -1.0f,  1.0f,
+	1.0f, -1.0f,  1.0f,
+
+	// front
+	1.0f, 1.0f, 1.0f,
+   -1.0f, 1.0f, 1.0f,
+   -1.0f, -1.0f, 1.0f,
+	1.0f, -1.0f, 1.0f,
+
+	// back
+	1.0f, 1.0f, -1.0f,
+   -1.0f, 1.0f, -1.0f,
+   -1.0f, -1.0f, -1.0f,
+	1.0f, -1.0f, -1.0f,
+
+	// right
+	1.0f, 1.0f, -1.0f,
+	1.0f, 1.0f, 1.0f,
+	1.0f, -1.0f, 1.0f,
+	1.0f, -1.0f, -1.0f,
+
+        // left
+	-1.0f, 1.0f, 1.0f,
+	-1.0f, 1.0f, -1.0f, 
+	-1.0f, -1.0f, -1.0f, 
+	-1.0f, -1.0f, 1.0f, 
+
+GLfloat cubeColors
+	// Top
+	1.0f,0.0f,0.0f // Red
+	// Bottom
+	0.0f,1.0f,0.0f // Green
+	// Front
+	0.0f,0.0f,1.0f // Blue
+	// Back
+	0.0f,1.0f,1.0f // Cyan
+	// Right
+	1.0f,0.0f,1.0f // Magenta
+	// Left
+	1.0f,1.0f,0.0f // Yellow
+
+
+GLfloat cubeTexcoords
+	// Top
+	0.0f,1.0f,
+	0.0f,0.0f,
+	1.0f,0.0f,
+	1.0f,1.0f,
+	// Bottom
+	1.0f,1.0f,
+	0.0f,1.0f,
+	0.0f,0.0f,
+	1.0f,0.0f,
+	// Front
+	0.0f,0.0f,
+	1.0f,0.0f,
+	1.0f,1.0f,
+	0.0f,1.0f,
+	// Back
+	1.0f,0.0f,
+	1.0f,1.0f,
+	0.0f,1.0f,
+	0.0f,0.0f,
+	// Right
+	1.0f,0.0f,
+	1.0f,1.0f,
+	0.0f,1.0f,
+	0.0f,0.0f,
+	// Left
+	0.0f,0.0f,
+	1.0f,0.0f,
+	1.0f,1.0f,
+	0.0f,1.0f,
+	
+
+GLfloat cubeNormals
+	// Top
+	0.0f, 1.0f, 0.0f
+	// Bottom
+	0.0f, -1.0f, 0.0f
+	// Front
+	0.0f, 0.0f, -1.0f
+	// Back
+	0.0f, 0.0f, 1.0f
+	// Right
+	1.0f, 0.0f, 0.0f
+	// Left
+	-1.0f, 0.0f, 0.0f

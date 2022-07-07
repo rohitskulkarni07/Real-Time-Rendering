@@ -1,0 +1,4 @@
+#include "OGL.h"
+MYICON ICON rico.ico
+
+SMILEY_BITMAP BITMAP Smiley.bmp

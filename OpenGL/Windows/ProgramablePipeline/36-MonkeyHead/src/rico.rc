@@ -1,0 +1,9 @@
+#include "OGL.h"
+MYICON ICON rico.ico
+
+RIGHT_BITMAP BITMAP right.bmp
+LEFT_BITMAP BITMAP left.bmp
+TOP_BITMAP BITMAP top.bmp
+BOTTOM_BITMAP BITMAP bottom.bmp
+FRONT_BITMAP BITMAP front.bmp
+BACK_BITMAP BITMAP back.bmp

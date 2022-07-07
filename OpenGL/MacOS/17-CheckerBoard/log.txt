@@ -1,0 +1,12 @@
+
+Program Started Successfully: 66
+prepareOpenGL succeeded 
+reshape succeeded
+reshape succeeded
+reshape succeeded
+reshape succeeded
+reshape succeeded
+reshape succeeded
+reshape succeeded
+
+Program Completed Successfully: 86

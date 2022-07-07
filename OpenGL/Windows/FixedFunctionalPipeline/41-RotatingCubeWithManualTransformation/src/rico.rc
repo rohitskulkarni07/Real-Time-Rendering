@@ -1,0 +1,5 @@
+#include "MyWindowWithIcon.h"
+MYICON ICON rico.ico
+
+
+
